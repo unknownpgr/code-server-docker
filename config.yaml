@@ -1,0 +1,4 @@
+bind-addr: 127.0.0.1:3142
+auth: none
+password: b307b32f477594bb31542909
+cert: false
