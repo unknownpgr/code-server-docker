@@ -10,4 +10,4 @@ RUN	curl -fsSL https://code-server.dev/install.sh | sh
 EXPOSE 	8080 
 
 # Start code-server with every ip and 8080 port
-CMD 	code-server --host 0.0.0.0 --port 8080
+CMD 	code-server --host 0.0.0.0 --port 8080 /src
