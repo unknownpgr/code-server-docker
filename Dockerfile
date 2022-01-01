@@ -2,9 +2,10 @@
 FROM 	ubuntu:latest
 
 # Install curl and code-server
-RUN 	apt-get -y update
-RUN 	apt-get install -y curl
+RUN apt-get -y update
+RUN apt-get install -y curl
 RUN	curl -fsSL https://code-server.dev/install.sh | sh
+RUN mkdir /src
 
 # Expose 8080 port
 EXPOSE 	8080 
